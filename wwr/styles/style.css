@@ -278,8 +278,62 @@ button:hover {
     
 }
 
+hero.new {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background: linear-gradient(0deg, rgba(0,0,0,0.5) rgba(0,0,0,0.5));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+#banner2 .container {
+    text-align: center;
+    padding: 200px 12px;
+    
+}
+
+#ativities {
+    background-color: rgba(30,30,30);
+    color: white;
+    text-align: center;
+}
+
+#ativities .container {
+    padding: 100px 0px;
+}
+
+#ativities h3 {
+    margin-top: 0;
+}
 
 
+
+#ativities .carta {
+
+}
+
+.carta :first-child{
+    background: linear-gradient(0deg, rgba(0,0,0,0.5) rgba(0,0,0,0.5));
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+    margin: 12px;
+    }
+
+.carta :nth-child(1){
+    background: linear-gradient(0deg, rgba(0,0,0,0.5) rgba(0,0,0,0.5));
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+    margin: 12px;
+    
+}
 
 @media screen and (max-width: 900px) {
 
