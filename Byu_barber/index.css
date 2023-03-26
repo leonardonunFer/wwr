@@ -191,24 +191,15 @@ header a:hover{
     font-size: 5vw;
 }
 
-footer{
-    background-color: rgb(217,217,217);
+.pie-pagina .grupo1 {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+
 }
 
-footer p{
-    margin: 0;
-    padding: 12px;
-    color: rgb(100,100,100);
-}
-
-footer .container{
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
-
-@media (min-width: 850px){
+@media (min-width: 800px){
     header{
         position: fixed;
         width: 100%;
@@ -246,6 +237,10 @@ footer .container{
 
     #somos-proya h2{
         margin-top: 0px;
+    }
+
+    #somos-proya p {
+        font-family: 'Playfair Display', serif;
     }
 
     #somos-proya .img-container{
@@ -340,24 +335,6 @@ footer .container{
         font-size: 2em;
     }
 
-    footer .container{
-        justify-content: first baseline;
-        
-    }
-
-    footer img {
-        padding: 20px;
-        height: 120px;
-        background-color: rgb(217,217,217);
-        margin-right: 900px;
-        
-               
-    }
-
-    footer .social_media{
-        text-align: center;
-    }
-
     .social_media {
         display: flex;
         justify-content: center;
@@ -373,6 +350,125 @@ footer .container{
      }
     
 }
+
+.pie-pagina {
+    width: 100%;
+    background-color: #0a141d;
+
+}
+
+.pie-pagina .grupo1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 40px 0px;
+
+}
+
+.pie-pagina .grupo1 .box figure img{
+    width: 250px;
+
+}
+
+
+.pie-pagina .grupo1 .box h2{
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 45px;
+
+}
+
+.pie-pagina .grupo1 .social-network a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+
+}
+
+.pie-pagina .grupo1 .social-network a:hover{
+    color: aqua;
+}
+
+.pie-pagina .grupo_2{
+    background-color: #0a1a2a;
+    padding: 15px 10;
+    text-align: center;
+    color: #fff;
+
+}
+
+.pie-pagina .grupo_2 small{
+    font-size: 18px;
+}
+
+/* page2 - Services */
+
+.debajo_encaezado {
+    text-align: center;
+    padding: 20px;
+    background: #F5F5F5;
+}
+
+.debajo_encaezado  p {
+    
+    font-family: 'Playfair Display', serif;
+
+}
+
+.testimonials {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+       
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 90px;
+    width: 100px;
+    
+    
+
+}
+
+.testimonial img {
+    width: 220px;
+    height: 300px;
+    border-radius: 100%;
+    margin-bottom: 40px;
+    border: 10px solid #d9c2a3;
+    box-shadow: 5px 5px 10px #6f7364;
+    transition: transform .5s;
+}
+
+.testimonial p {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.5;
+    
+}
+
+.testimonials button{
+    padding: 25px;
+    margin: 30px;
+}
+
 
 @media (min-width: 1200px) {
     #caracteristicas{
