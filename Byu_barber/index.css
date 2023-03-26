@@ -144,6 +144,14 @@ header a:hover{
 
 }
 
+#caracteristicas .container h2{
+    position: relative;
+    top: -150px;
+    left: 100px;
+    
+    
+}
+
 #caracteristicas p{
     margin: 0;
     padding: 12px;
@@ -299,6 +307,7 @@ header a:hover{
         background-size: 500px 400px;
         text-align: right;
         background-position: right;
+    
     }
 
     caracteristicas-flex {
