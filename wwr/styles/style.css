@@ -285,7 +285,6 @@ hero.new {
     text-align: center;
     flex-direction: column;
     height: 90vh;
-    background: linear-gradient(0deg, rgba(0,0,0,0.5) rgba(0,0,0,0.5));
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -319,7 +318,7 @@ hero.new {
 }
 
 .carta :first-child{
-    background: linear-gradient(0deg, rgba(0,0,0,0.5) rgba(0,0,0,0.5));
+    
     background-position: center;
     background-size: cover;
     padding: 50px;
@@ -327,7 +326,7 @@ hero.new {
     }
 
 .carta :nth-child(1){
-    background: linear-gradient(0deg, rgba(0,0,0,0.5) rgba(0,0,0,0.5));
+    
     background-position: center;
     background-size: cover;
     padding: 50px;
