@@ -11,7 +11,7 @@ body{
     margin: 0;
 }
 
-h1{ font-size: 3.5em;}
+/* h1{ font-size: 3.5em;} */
 h2{ font-size: 2.7em;}
 h3{ font-size: 2em;}
 p{ font-size: 1.25em;}
@@ -410,7 +410,6 @@ header a:hover{
 
 .pie-pagina .grupo_2{
     background-color: #0a1a2a;
-    padding: 15px 10;
     text-align: center;
     color: #fff;
 
@@ -477,6 +476,124 @@ header a:hover{
     padding: 25px;
     margin: 30px;
 }
+
+/* page_3 Contact Us */
+
+.contacto {
+    text-align: center;
+    padding: 20px;
+    background: #F5F5F5;
+    margin: 35px;
+}
+
+.contacto  p {
+    
+    font-family: 'Playfair Display', serif;
+
+}
+
+/* Estilos CSS para el formulario */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    background-color: #616161;
+    padding: 35px;
+    border-radius: 5px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #E7C24F;
+    color: white;
+    border: none;
+    padding: 10px 100px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    
+  }
+  
+  button:hover{
+    background-color: #6E281E
+}
+  
+.titulo_princ h1 {
+
+    text-align: center;
+    padding: 30px;
+    font-size: 50px;
+    
+    
+}
+
+
+.testimonios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #F5F5F5;
+    
+
+}
+
+.testimonio {
+    flex-basis: calc(50% - 20px);
+    margin-bottom: 60px;
+    text-align: center;
+    padding: 40px;
+    
+}
+
+.testimonio titulo_principal {
+    text-align: center;
+
+}
+
+.testimonio img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+}
+
+.testimonio p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.boton_final button{
+        text-align: center;
+        margin-bottom: 35px;
+        display: flex;        
+        margin: auto;
+        font-size: large;
+
+
+        
+        
+
+}
+
+    
+    
+
+
 
 
 @media (min-width: 1200px) {

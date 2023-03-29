@@ -312,11 +312,6 @@ hero.new {
 }
 
 
-
-#ativities .carta {
-
-}
-
 .carta :first-child{
     
     background-position: center;
@@ -333,6 +328,12 @@ hero.new {
     margin: 12px;
     
 }
+
+
+/* Page_3 Contac Us */
+
+
+
 
 @media screen and (max-width: 900px) {
 
