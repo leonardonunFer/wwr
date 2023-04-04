@@ -95,7 +95,7 @@ header a:hover{
     background-position: center center;
 }
 
-#hero h1{
+#hero h2{
     color: white;
 }
 
@@ -224,7 +224,7 @@ header a:hover{
         padding-right: 20px;
     }
 
-    #hero h1{
+    #hero h2{
         font-size: 5em;
     }
 
@@ -492,6 +492,10 @@ header a:hover{
 
 }
 
+.contacto h1 {
+    text-align: center;
+}
+
 /* Estilos CSS para el formulario */
 form {
     max-width: 500px;
@@ -532,7 +536,7 @@ form {
     background-color: #6E281E
 }
   
-.titulo_princ h1 {
+.titulo_princ h2 {
 
     text-align: center;
     padding: 30px;
@@ -580,16 +584,14 @@ form {
 .boton_final button{
         text-align: center;
         margin-bottom: 35px;
-        display: flex;        
-        margin: auto;
-        font-size: large;
-
-
-        
-        
+        display: flex;       
+        font-size: large;          
 
 }
 
+.boton_final h2 {
+    display: none;
+}
     
     
 
